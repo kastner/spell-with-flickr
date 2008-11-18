@@ -1,0 +1,70 @@
+body {
+    background-color:black;
+    color: white;
+    font-family: "Trebuchet MS", trebuchet, sans-serif;
+    font-size: 12px;
+}
+fieldset {
+    -moz-border-radius: 10px;
+}
+.photo {
+    display: inline;
+    /*
+    float: left;
+    height: 75px;
+    width: 75px;
+    */
+    margin: 4px 0; 
+    padding:0px; 
+    border: 0;
+    color: white;
+}
+.spacer {
+    /*float: left;*/
+    display: inline;
+    content: "...";
+    color: black;
+    height: 75px;
+    padding-left: 50px;
+}
+#flickrBlock {
+    position: absolute;
+    width: 400px;
+    clear: both;
+    font-family: "Trebuchet MS", Trebuchet, Tehoma, sans-serif;
+    font-size: 14pt;
+    border: 1px solid #44a;
+    background-color: #555;
+    padding: 4px;
+}
+.flickrLink {
+    display: none;
+    width: 75px;
+}
+a {
+    color: #003dff;
+}
+a:active {
+    color: #0000ff;
+}
+a:hover {
+    color: #aa00ff;
+}
+h1 a {
+    text-decoration: none;
+}
+h2 a {
+    text-decoration: none;
+}
+.flickr {
+    color: blue;
+}
+.r {
+    color: red;
+}
+.flickrOut {
+    background-color: #222;
+    border: 0;
+    color: white;
+}
+
