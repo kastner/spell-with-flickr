@@ -1,0 +1,25 @@
+Spell With Flickr
+================
+
+The international sensation finally comes to Git.
+
+
+What it is
+----------
+
+[Spell With Flickr](http://metaatem.net/words/) launched in February of 2005.
+It's a simple php app that lets the user enter letters, numbers and some punctuation and then goes out and finds pictures of those things from [Flickr](http://flickr.com).
+
+
+How it works
+------------
+
+It makes API requests to the flickr api, parses those, caches the result locally, then returns javascript arrays of each character to the browser to be displayed and changed.
+
+
+Author
+------
+
+Erik Kastner <kastner@gmail.com>
+http://metaatem.net/
+
